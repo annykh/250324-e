@@ -1,0 +1,47 @@
+.cat_img{
+    /* Ширина */
+    width: 200px;
+    /* Высота */
+    /* height: 150px; */
+}
+
+.logo{
+    width: 50px;
+}
+
+.block1{
+    /* фоновый цвет */
+    background-color: beige;
+    /* граница/рамка */
+    border: 5px solid orange;
+    /* border-width: 5px;
+    border-style: dashed;
+    border-color: orange; */
+    /* border-right: 5px solid blue;
+    border-left: 5px dashed red;
+    border-top: 5px dotted green;
+    border-bottom: 5px solid yellow; */
+    /* скругление уголков рамки/фона */
+    /* border-radius: 30px 60px 90px 120px; */
+    border-radius: 20px;
+    /* внешний отступ */
+    margin: 30px 60px 90px 0;
+    /* margin-top: ; */
+    /* margin-bottom: ; */
+    /* margin-left: 40px; */
+    /* margin-right: ; */
+    /* внутренние отступы */
+    padding: 40px;
+    text-align: center;
+}
+
+/* тег img который находится в теге с классом block1 */
+.block1 img{
+    width: 200px;
+    /* height: 200px; */
+    border-radius: 50%;
+}
+
+.block1 h2{
+    text-align: center;
+}
