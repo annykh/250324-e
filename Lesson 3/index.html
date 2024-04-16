@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lesson 3</title>
+    <link rel="stylesheet" href="./style/style.css">
+</head>
+<body>
+    
+    <!-- Маркированный список - unordered list-->
+    <!-- li - list item -->
+    <ul type="disc">
+        <li>Microsoft</li>
+        <li>Google</li>
+        <li>Apple</li>
+        <li>IBM</li>
+    </ul>
+
+    <ul type="circle">
+        <li>Microsoft</li>
+        <li>Google</li>
+        <li>Apple</li>
+        <li>IBM</li>
+    </ul>
+
+    <ul type="square">
+        <li>Microsoft</li>
+        <li>Google</li>
+        <li>Apple</li>
+        <li>IBM</li>
+    </ul>
+
+    <!-- Нумерованные списки - ordered list -->
+    <ol>
+        <li>Javascript</li>
+        <li>Java</li>
+        <li>Python</li>
+        <li>C#</li>
+        <li>Ruby</li>
+    </ol>
+
+    <!-- 1, A, a, I, i -->
+    <ol type="I">
+        <li>Javascript</li>
+        <li>Java</li>
+        <li>Python</li>
+        <li>C#</li>
+        <li>Ruby</li>
+    </ol>
+
+    <ol start="5">
+        <li>Javascript</li>
+        <li>Java</li>
+        <li>Python</li>
+        <li>C#</li>
+        <li>Ruby</li>
+    </ol>
+
+    <ol reversed>
+        <li>Javascript</li>
+        <li>Java</li>
+        <li>Python</li>
+        <li>C#</li>
+        <li>Ruby</li>
+    </ol>
+
+    <!-- Список определений - description list-->
+    <!-- dt - description term
+        dd - description definition -->
+    <dl>
+        <dt>Termin 1</dt>
+        <dd>definition 1</dd>
+        <dt>Termin 2</dt>
+        <dd>definition 2</dd>
+    </dl>
+
+    <div>
+        <p>Termin 1</p>
+        <p class="tab">definition 1</p>
+        <p>Termin 2</p>
+        <p class="tab">definition 2</p>
+    </div>
+
+    <ol class="list1">
+        <li>Lorem ipsum dolor sit amet consectetur, adipisicing elit. A atque ipsa velit iure labore! Non soluta quidem illum, animi nesciunt eveniet atque pariatur, ipsum earum ex quasi laudantium sit facilis?</li>
+        <li>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quas, error corrupti. Iure accusamus, dignissimos nemo obcaecati, a doloremque facilis at totam, vitae alias hic. Atque maxime magnam hic dolor tenetur?
+        Quos sunt consectetur ipsam fuga accusamus numquam enim sint adipisci consequuntur. Veritatis maxime magni delectus itaque aut officia libero! Facere quaerat eaque impedit dicta debitis eius, facilis quo molestias inventore?</li>
+        <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam sequi impedit quibusdam magni praesentium ex, tempora nulla cum ducimus quas esse sint blanditiis dolorum, repellendus labore voluptatem aspernatur quis odio.</li>
+        <li>lorem</li>
+    </ol>
+
+    
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quod sunt deserunt aliquam omnis corporis sit ut inventore reiciendis fugiat error recusandae nulla, nihil ad a praesentium excepturi aspernatur ratione illum?</p>
+    <div class="main_block">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia facere omnis eligendi ea, voluptate commodi, labore inventore nemo officia ut sapiente fugit vitae ex, ratione totam sint quod quidem quos?</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores assumenda fugiat ad impedit est ipsa itaque iusto suscipit consectetur? Laudantium quibusdam sit earum aspernatur cumque. Nesciunt adipisci voluptatum eius facere?</p>
+        <div class="child_block">
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quaerat dolores dolore, necessitatibus voluptas voluptate ad rem officia harum unde, quae aliquam at? Corrupti ipsam rerum, id nobis deserunt ullam delectus.</p>
+        </div>
+    </div>
+
+
+    <table class="table1">
+        <tr>
+            <th>First name</th>
+            <th>Last name</th>
+        </tr>
+        <tr>
+            <td>John</td>
+            <td>Smith</td>
+        </tr>
+        <tr>
+            <td>Bob</td>
+            <td>Brown</td>
+        </tr>
+        <tr>
+            <td><img src="https://m.media-amazon.com/images/I/31NeUL3ShVL.jpg"></td>
+            <td><img src="https://m.media-amazon.com/images/I/31NeUL3ShVL.jpg"></td>
+        </tr>
+    </table>
+
+
+    <table class="table2">
+        <tr>
+            <td rowspan="2">Браузер</td>
+            <th colspan="2">Internet Explorer</th>
+            <th colspan="3">Opera</th>
+            <th colspan="2">Firefox</th>
+        </tr>
+        <tr>
+            <th>6.0</th>
+            <th>7.0</th>
+            <th>7.0</th>
+            <th>8.0</th>
+            <th>9.0</th>
+            <th>1.0</th>
+            <th>2.0</th>
+        </tr>
+        <tr>
+            <td>Поддерживается</td>
+            <td>Нет</td>
+            <td>Да</td>
+            <td>Нет</td>
+            <td colspan="4">Да</td>
+        </tr>
+    </table>
+
+
+    <table class="table3">
+        <tr>
+            <th rowspan="2">Heading</th>
+            <th>Students</th>
+            <th colspan="3">Details</th>
+        </tr>
+        <tr>
+            <th>Id</th>
+            <th>Name</th>
+            <th>Department</th>
+            <th>Roll Number</th>
+        </tr>
+        <tr>
+            <td rowspan="4">Student List</td>
+            <td>1</td>
+            <td>Victor</td>
+            <td>Computer Science</td>
+            <td>12345</td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>Williams</td>
+            <td>Electronics</td>
+            <td>23456</td>
+        </tr>
+        <tr>
+            <td>3</td>
+            <td>Harry</td>
+            <td>Electrical</td>
+            <td>34567</td>
+        </tr>
+        <tr>
+            <td>4</td>
+            <td>Rick</td>
+            <td>Civil</td>
+            <td>45678</td>
+        </tr>
+    </table>
+</body>
+</html>
