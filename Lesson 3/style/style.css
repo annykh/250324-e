@@ -1,0 +1,69 @@
+.tab{
+    margin-left: 40px;
+}
+
+/* p{
+    margin: 0;
+} */
+
+.list1{
+    color: blue;
+    width: 800px;
+    border: 1px solid black;
+    /* list-style-type: none; */
+    /* outside, inside */
+    /* list-style-position: inside; */
+    /* list-style-image: url('https://m.media-amazon.com/images/I/31NeUL3ShVL.jpg'); */
+    list-style: georgian outside none;
+}
+
+p{
+    font-size: 20px;
+}
+
+/* Все параграфы которые находятся в элементе с классом .main_block */
+.main_block p{
+    color: blue;
+}
+
+.child_block p{
+    font-weight: bold;
+}
+
+.main_block>p{
+    font-style: italic;
+}
+
+.table1{
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+.table1 th, .table1 td{
+    border: 1px solid black;
+}
+
+.table1 img{
+    width: 50px;
+}
+
+.table2{
+    border: 1px solid black;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+.table2 th, .table2 td{
+    border: 1px solid black;
+    text-align: center;
+}
+
+.table3 {
+    border: 1px solid black;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+.table3 th, .table3 td{
+    border: 1px solid black;
+}
