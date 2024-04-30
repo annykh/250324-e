@@ -1,0 +1,81 @@
+/* p{ */
+    /* width: 500px; */
+    /* height: 500px; */
+    /* border: 5px solid blue; */
+    /* margin: 20px; */
+    /* padding: 30px; */
+    /* inline- Строчные */
+    /* display: inline; */
+/* } */
+
+/* span{ */
+    /* width: 500px; */
+    /* height: 500px; */
+    /* border: 5px solid blue; */
+    /* margin: 20px; */
+    /* padding: 30px; */
+    /* block - блочные */
+    /* display: block; */
+    /* inline-block Строчно-блочные */
+    /* display: inline-block; */
+/* } */
+
+
+.container div{
+    width: 200px;
+    /* height: 200px; */
+    border: 5px solid black;
+    text-align: center;
+}
+
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    /* flex-direction: row; */
+    /* row, column */
+    /* justify-content: space-evenly; */
+    /* center, flex-start, flex-end, space-between, space-around, space-evenly  */
+    /* align-items: center; */
+    /* flex-start, flex-end, center */
+}
+
+
+.block1{
+    height: 200px;
+}
+
+.block2{
+    height: 300px;
+}
+
+.block3{
+    height: 150px;
+}
+
+.block4{
+    height: 200px;
+}
+
+.block5{
+    height: 100px;
+}
+
+.block6{
+    height: 250px;
+}
+
+.block7{
+    height: 100px;
+}
+
+.block8{
+    height: 300px;
+}
+
+.block9{
+    height: 200px;
+}
+
+.block10{
+    height: 270px;
+}
