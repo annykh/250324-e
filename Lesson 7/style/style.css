@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main{
+    width: 600px;
+    height: 1700px;
+    border: 5px solid red;
+    margin: 10px auto;
+}
+
+.main div{
+    text-align: center;
+    padding: 10px;
+    font-size: 20px;
+}
+
+.block1{
+    background-color: aqua;
+}
+
+.block2{
+    background-color: lightcoral;
+    /* position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%; */
+    position: sticky;
+    top: 0;
+}
+
+.block3{
+    background-color: lightgoldenrodyellow;
+}
+
+.block4{
+    background-color: lightpink;
+    /* position: sticky;
+    top: 0; */
+}
+
+.block5{
+    background-color: lightseagreen;
+}
