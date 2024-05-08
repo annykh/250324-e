@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    padding: 10px;
+}
+
+h1{
+    margin: 16px 0;
+}
+
+p{
+    margin-left: 30px;
+}
+
+.char{
+    background-color: black;
+    color: white;
+    padding: 10px;
+    position: sticky;
+    top: 0;
+    margin: 16px 0;
+}
+
+/* .char2{
+    top: 40px;
+}
+
+.char3{
+    top: 80px;
+} */
+
